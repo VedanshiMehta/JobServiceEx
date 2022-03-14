@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace JobServiceEx
 {
-    [Service(Name = "com.companyname.jobserviceex.BackgroundJob.UploadImageJob", Permission = "android.permission.BIND_JOB_SERVICE")]
+    [Service(Name = "com.companyname.jobserviceex.BackgroundJob.UploadImageJobServices", Permission = "android.permission.BIND_JOB_SERVICE")]
     class UploadImageJobServices : JobService
     {
         private const string TAG = "UploadImageJob";
